@@ -82,11 +82,6 @@ export default function Home() {
           logoAlt="MemeSpark Logo"
           logoText="MemeSpark"
           className=""
-          items={[
-            { label: "Privacy Policy", onClick: () => { alert('Privacy clicked!'); } },
-            { label: "Terms of Service", onClick: () => { alert('Terms clicked!'); } },
-            { label: "Contact Us", onClick: () => { alert('Contact clicked!'); } }
-          ]}
         />
       </div>
     </SiteThemeProvider>
