@@ -15,9 +15,9 @@ export default function Home() {
       <NavbarBase
         logoSrc="/images/logo.svg"
         logoAlt="MemeSpark Logo"
-        logoText="MemeSpark"
         leftButtonText=""
         rightButtonText="Join MemeSpark"
+        onLeftButtonClick={() => {}}
         onRightButtonClick={() => { window.location.href = '#footer'; }}
       />
 
@@ -82,7 +82,6 @@ export default function Home() {
           logoAlt="MemeSpark Logo"
           logoText="MemeSpark"
           className=""
-          logoClassName=""
           items={[
             { label: "Privacy Policy", onClick: () => { alert('Privacy clicked!'); } },
             { label: "Terms of Service", onClick: () => { alert('Terms clicked!'); } },
